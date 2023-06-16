@@ -15,7 +15,7 @@ import { Grid, Button, ButtonGroup, Typography } from "@material-ui/core";
 export default class Homepage extends Component {
   constructor(props) {
     super(props);
-    this.State = {
+    this.state = {
       roomCode: null,
     };
   }
